@@ -1,0 +1,61 @@
+{
+    "@context": "http://readium.org/webpub/default.jsonld",
+    "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "A Oração de São Miguel",
+        "author": {
+            "name": "Padre Paulo Ricardo",
+            "sortAs": "Padre Paulo Ricardo"
+        },
+        "narrator": "Padre Paulo Ricardo",
+        "language": "pt",
+        "description": "A fé de dois mil anos da Igreja, explicada de forma concisa, simples e acessível a todos, é o que este curso de catequese deseja transmitir.",
+        "publisher": "Padre Paulo Ricardo",
+        "modified": "2021-01-31",
+        "published": "2021-01-31"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": ".",
+            "type": "application/audiobook+json"
+        },
+        {
+            "rel": "cover",
+            "href": "https://arquivos.padrepauloricardo.org/uploads/curso/imagem/187/catequese-para-adultos-desktop.jpg",
+            "type": "image/jpeg",
+            "height": 500,
+            "width": 500
+        }
+    ],
+    "readingOrder": [
+        {
+            "href": "audio/1-sao-miguel-principe-da-humildade.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/2-as-preces-depois-da-missa.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/3-a-visao-de-leao-xiii.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/4-o-exorcismo-de-leao-xiii.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/5-a-nossa-luta-e-contra-o-inferno.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/6-a-oracao-a-sao-miguel-hoje.mp3",
+            "type": "audio/mpeg"
+        },
+        {
+            "href": "audio/7-conversa-com-os-alunos.mp3",
+            "type": "audio/mpeg"
+        }
+    ]
+}
