@@ -31,31 +31,38 @@
     "readingOrder": [
         {
             "href": "audio/1-sao-miguel-principe-da-humildade.mp3",
-            "type": "audio/mpeg"
+            "type": "audio/mpeg",
+            "pdf": "doc/01_sao_miguel_principe_da_humildade.pdf"
         },
         {
             "href": "audio/2-as-preces-depois-da-missa.mp3",
-            "type": "audio/mpeg"
+            "type": "audio/mpeg",
+            "pdf": "doc/02_as_preces_depois_da_missa.pdf"
         },
         {
             "href": "audio/3-a-visao-de-leao-xiii.mp3",
-            "type": "audio/mpeg"
+            "type": "audio/mpeg",
+            "pdf": "doc/03_a_visao_de_leao_xiii.pdf"
         },
         {
             "href": "audio/4-o-exorcismo-de-leao-xiii.mp3",
-            "type": "audio/mpeg"
+            "type": "audio/mpeg",
+            "pdf": "doc/04_o_exorcismo_de_leao_xiii.pdf"
         },
         {
             "href": "audio/5-a-nossa-luta-e-contra-o-inferno.mp3",
-            "type": "audio/mpeg"
+            "type": "audio/mpeg",
+            "pdf": "doc/05_a_nossa_luta_e_contra_o_inferno.pdf"
         },
         {
             "href": "audio/6-a-oracao-a-sao-miguel-hoje.mp3",
-            "type": "audio/mpeg"
+            "type": "audio/mpeg",
+            "pdf": "doc/06_a_oracao_a_sao_miguel_hoje.pdf"
         },
         {
             "href": "audio/7-conversa-com-os-alunos.mp3",
-            "type": "audio/mpeg"
+            "type": "audio/mpeg",
+            "pdf": "doc/07_conversa_com_os_alunos.pdf"
         }
     ]
 }

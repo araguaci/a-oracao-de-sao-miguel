@@ -145,12 +145,9 @@ String.prototype.replaceAll = function (stringToFind, stringToReplace) {
           var element_url = new URL(element.href, url);
           return element_url.href == current_src;
         });        
-        if (current_index==-1) {
-          current_index = 0;
-        }
         console.log(current_index);
         temp = readingOrder[current_index].href;
-        temp = temp.substring(6, temp.length - 4);
+        temp = temp.substring(5, temp.length - 5);
         temp = temp.replaceAll("_", " ");        
         ting.innerHTML = temp;
         if (current_index >= 0) {

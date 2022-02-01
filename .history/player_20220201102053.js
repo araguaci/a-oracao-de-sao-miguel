@@ -150,7 +150,7 @@ String.prototype.replaceAll = function (stringToFind, stringToReplace) {
         }
         console.log(current_index);
         temp = readingOrder[current_index].href;
-        temp = temp.substring(6, temp.length - 4);
+        temp = temp.substring(5, temp.length - 5);
         temp = temp.replaceAll("_", " ");        
         ting.innerHTML = temp;
         if (current_index >= 0) {

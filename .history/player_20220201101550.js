@@ -144,14 +144,11 @@ String.prototype.replaceAll = function (stringToFind, stringToReplace) {
         var current_index = readingOrder.findIndex(function (element) {
           var element_url = new URL(element.href, url);
           return element_url.href == current_src;
-        });        
-        if (current_index==-1) {
-          current_index = 0;
-        }
-        console.log(current_index);
+        });
+        console.log(readingOrder);
         temp = readingOrder[current_index].href;
-        temp = temp.substring(6, temp.length - 4);
-        temp = temp.replaceAll("_", " ");        
+        temp = temp.substring(5, temp.length - 4);
+        temp = temp.replaceAll("_", " ");
         ting.innerHTML = temp;
         if (current_index >= 0) {
           audio_source.src = new URL(
